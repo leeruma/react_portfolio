@@ -4,7 +4,7 @@ import styles from './Contact.module.scss';
 
 export default function Contact() {
 	return (
-		<Layout title={'Contact'} styleName={styles.contact}>
+		<Layout title={'Contact'} className={'contact'} styleName={styles.contact}>
 			<p>Contact 페이지입니다.</p>
 		</Layout>
 	);
