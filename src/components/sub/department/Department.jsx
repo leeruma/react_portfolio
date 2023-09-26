@@ -4,7 +4,7 @@ import Layout from '../../common/layout/Layout';
 
 export default function Department() {
 	return (
-		<Layout>
+		<Layout title={'멤버소개'}>
 			<p>Department 페이지입니다.</p>
 		</Layout>
 	);
